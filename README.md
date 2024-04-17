@@ -1,8 +1,8 @@
 # GPT-DocClassifier
 
-AI Document Processor
+# AI Document Processor
 
-Project Overview
+## Project Overview
 
 This repository contains the AI Document Processor, an advanced machine learning solution designed to automate the extraction, chunking, and tagging of textual content from a variety of document formats. Built with the cutting-edge capabilities of GPT APIs, this system streamlines the organization and categorization of large volumes of documents, making it an invaluable tool for content management and data analysis tasks.
 
