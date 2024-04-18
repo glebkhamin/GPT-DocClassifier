@@ -34,7 +34,7 @@ Ensure the following prompt files are in the same directory as the code files fo
 - *topic_assignment_no_vocab_prompt.txt* (used for TAGGING)
 
 ### Necessary Libraries
-Install the required libraries by running the following command in your terminal (it is one of the possible ways to do it):
+Install the required libraries by running the following command in your terminal:
 
 **pip install -r requirements.txt**
 
@@ -49,17 +49,19 @@ The *requirements.txt* file includes the following libraries:
 - *iterative-stratification*
 - *matplotlib*
 
-Additional Software
-For PDF conversions, LibreOffice is required. You can install it from the following link: LibreOffice Installation Guide.
+### Additional Software
+
+For PDF conversions, LibreOffice is required. You can install it from the following link: https://www.libreoffice.org/get-help/install-howto/
+
 If you are using a Mac, you will need to add soffice to your PATH with the following terminal command:
 
-ruby
-Copy code
-export PATH=$PATH:/Applications/LibreOffice.app/Contents/MacOS
+**export PATH=$PATH:/Applications/LibreOffice.app/Contents/MacOS**
+
 Please note that slight code changes may be needed for non-Mac systems.
 
-Data Set-Up
-Organize your documents for chunking/tagging into a subdirectory named chunking_tests. Training CSVs should be placed in a subdirectory called fine_tuning_data.
+### Data Set-Up
+Organise your documents for chunking/tagging into a subdirectory named *chunking_tests*. Training CSVs should be placed in a subdirectory called fine_tuning_data.
+
 
 Fine-Tuning
 In keys.py, replace the placeholder with your OpenAI API key.
