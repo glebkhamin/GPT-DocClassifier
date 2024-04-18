@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains the GPT-DocClassifier, an advanced machine learning solution designed to automate the extraction, chunking, and tagging of textual content from a variety of document formats. Built with the cutting-edge capabilities of GPT APIs, this system streamlines the organisation and categorisation of large volumes of documents, making it an invaluable tool for content management and data analysis tasks.
+This repository contains the GPT-DocClassifier, a machine learning solution designed to automate the chunking and tagging of various document types, including PDF, DOCX, XLSX, and PPTX. Built with the cutting-edge capabilities of GPT APIs, this system streamlines the organisation and categorisation of large volumes of documents, making it an invaluable tool for content management and data analysis tasks.
 
 ## Features
 - **Document Chunking:** Breaks down various document types into manageable text chunks for easier processing.
