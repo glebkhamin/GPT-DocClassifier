@@ -16,7 +16,6 @@ This repository contains the GPT-DocClassifier, a machine learning solution desi
 To get started with the GPT-DocClassifier:
 
 ### Relevant Code Files
-
 To execute the code for this project, you'll need the following Python scripts located in the main directory:
 
 - *test_categorisation_generated_chunks.py:* Runs the categorization process on generated chunks.
@@ -27,7 +26,6 @@ To execute the code for this project, you'll need the following Python scripts l
 - *requirements.txt:* Lists all necessary Python libraries.
 
 ### Prompt Files
-
 Ensure the following prompt files are in the same directory as the code files for proper execution:
 
 - *section_prompt_chunking.txt* (used for CHUNKING)
@@ -50,7 +48,6 @@ The *requirements.txt* file includes the following libraries:
 - *matplotlib*
 
 ### Additional Software
-
 For PDF conversions, LibreOffice is required. You can install it from the following link: https://www.libreoffice.org/get-help/install-howto/
 
 If you are using a Mac, you will need to add soffice to your PATH with the following terminal command:
