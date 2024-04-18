@@ -19,34 +19,36 @@ To get started with the GPT-DocClassifier:
 
 To execute the code for this project, you'll need the following Python scripts located in the main directory:
 
-- test_categorisation_generated_chunks.py: Runs the categorization process on generated chunks.
-- finetune.py: Handles the fine-tuning of the GPT model.
-- chunker.py: Splits documents into chunks using GPT-4 Vision.
-- keys.py: Stores API keys and other sensitive information.
-- inputdata_analysis.py: Analyses the input data for preprocessing needs.
-- requirements.txt: Lists all necessary Python libraries.
+- *test_categorisation_generated_chunks.py:* Runs the categorization process on generated chunks.
+- *finetune.py:* Handles the fine-tuning of the GPT model.
+- *chunker.py:* Splits documents into chunks using GPT-4 Vision.
+- *keys.py:* Stores API keys and other sensitive information.
+- *inputdata_analysis.py:* Analyses the input data for preprocessing needs.
+- *requirements.txt:* Lists all necessary Python libraries.
 
+### Prompt Files
 
-Prompt Files
 Ensure the following prompt files are in the same directory as the code files for proper execution:
 
-section_prompt_chunking.txt (used for CHUNKING)
-topic_assignment_no_vocab_prompt.txt (used for TAGGING)
-Necessary Libraries
-Install the required libraries by running the following command in your terminal:
+- *section_prompt_chunking.txt* (used for CHUNKING)
+- *topic_assignment_no_vocab_prompt.txt* (used for TAGGING)
 
-Copy code
-pip install -r requirements.txt
-The requirements.txt file includes the following libraries:
+### Necessary Libraries
+Install the required libraries by running the following command in your terminal (it is one of the possible ways to do it):
 
-openai
-pypdf2
-langchain
-pdf2image
-pandas
-scikit-learn
-iterative-stratification
-matplotlib
+**pip install -r requirements.txt**
+
+The *requirements.txt* file includes the following libraries:
+
+- *openai*
+- *pypdf2*
+- *langchain*
+- *pdf2image*
+- *pandas*
+- *scikit-learn*
+- *iterative-stratification*
+- *matplotlib*
+
 Additional Software
 For PDF conversions, LibreOffice is required. You can install it from the following link: LibreOffice Installation Guide.
 If you are using a Mac, you will need to add soffice to your PATH with the following terminal command:
