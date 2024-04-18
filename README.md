@@ -12,10 +12,8 @@ This repository contains the GPT-DocClassifier, a machine learning solution desi
 - **GPT-4 Vision Integration:** Leverages GPT-4-Vision for advanced image and table understanding within documents.
 - **CSV Compilation:** Aggregates all chunks and tags into a comprehensive CSV file for subsequent use.
 
-## Getting Started
+## Getting Started / Process for Executing Code
 To get started with the GPT-DocClassifier:
-
-## Process for Executing Code
 
 ### Relevant Code Files
 
