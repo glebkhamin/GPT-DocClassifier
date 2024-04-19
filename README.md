@@ -70,5 +70,7 @@ Organise your documents for chunking/tagging into a subdirectory named *chunking
 - Execute *chunker.py* to generate chunks and output them into a CSV called *scoresheet.csv*.
 
 ### Tag Chunks in CSV
-- Update the *FT_MODEL* variable in *test_categorisation_generated_chunks.py* with the model name received from OpenAI.
-- Run the script to tag each chunk and compile the results into *scoresheet_topics.csv*.
+- In test_*categorisation_generated_chunks.py*, around line 25 of the code, replace the value of FT_MODEL with the model name returned in (4) in the Fine Tuning section above (i.e. something like: “ft:gpt-3.5-turbo-1106:personal::SOME_ID”).
+- Execute the code of *test_categorisation_generated_chunks.py*:
+  - 1.	Goes through the CSV of chunks and tags each in chunk using the fine-tuned model
+  - 2.	Inserts result into a CSV called ‘scoresheet_topics.csv’.
