@@ -57,7 +57,7 @@ If you are using a Mac, you will need to add soffice to your PATH with the follo
 Please note that slight code changes may be needed for non-Mac systems.
 
 ### Data Set-Up
-Organise your documents for chunking/tagging into a subdirectory named *chunking_tests*. Training CSVs should be placed in a subdirectory called fine_tuning_data.
+Organise your documents for chunking/tagging into a subdirectory named *chunking_tests*. Training CSVs should be placed in a subdirectory called *fine_tuning_data*.
 
 ### Fine-Tuning
 - In *keys.py*, replace the placeholder with your OpenAI API key.
