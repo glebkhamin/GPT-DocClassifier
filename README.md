@@ -13,6 +13,8 @@ This repository contains the GPT-DocClassifier, a machine learning solution desi
 - **CSV Compilation:** Aggregates all chunks and tags into a comprehensive CSV file for subsequent use.
 
 ## Getting Started / Process for Executing Code
+*Refer to **Process for Executing Code.docx** file for a detailed breakdown of how to run the code.
+
 To get started with the GPT-DocClassifier:
 
 ### Relevant Code Files
