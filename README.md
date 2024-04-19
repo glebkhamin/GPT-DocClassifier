@@ -69,8 +69,7 @@ Organise your documents for chunking/tagging into a subdirectory named *chunking
 ### Generate Chunks
 - Create a directory called *chunking_tests* and place your test documents there.
 - Modify the *chunker.py* as needed to adjust the number of pages processed - currently only the first 15 pages are sent to the chunker. If you need to change this number, go to line 324 of *chunker.py*.
-
-- Execute *chunker.py* to generate chunks and output them into a CSV called *scoresheet.csv*.
+- Execute *chunker.py* to generate chunks and output them into a CSV called *scoresheet.csv* - you do not need to wait for the fine-tuning to be finished to run this.
 
 ### Tag Chunks in CSV
 - In test_*categorisation_generated_chunks.py*, around line 25 of the code, replace the value of FT_MODEL with the model name returned in (4) in the Fine Tuning section above (i.e. something like: “ft:gpt-3.5-turbo-1106:personal::SOME_ID”).
