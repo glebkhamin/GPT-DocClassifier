@@ -64,11 +64,11 @@ Organise your documents for chunking/tagging into a subdirectory named *chunking
 - Execute *finetune.py* to combine, augment data, and initiate fine-tuning with OpenAI.
 - Once fine-tuning is completed, OpenAI will provide the name of the fine-tuned model. This will be needed for tagging chunks in the next steps.
 
+### Generate Chunks
+- Create a directory called chunking_tests and place your test documents there.
+- Modify the chunker.py as needed to adjust the number of pages processed.
+- Execute chunker.py to generate chunks and output them into a CSV called scoresheet.csv.
 
-Generate Chunks
-Create a directory called chunking_tests and place your test documents there.
-Modify the chunker.py as needed to adjust the number of pages processed.
-Execute chunker.py to generate chunks and output them into a CSV called scoresheet.csv.
-Tag Chunks in CSV
-Update the FT_MODEL variable in test_categorisation_generated_chunks.py with the model name received from OpenAI.
-Run the script to tag each chunk and compile the results into scoresheet_topics.csv.
+### Tag Chunks in CSV
+- Update the FT_MODEL variable in test_categorisation_generated_chunks.py with the model name received from OpenAI.
+- Run the script to tag each chunk and compile the results into scoresheet_topics.csv.
