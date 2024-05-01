@@ -77,12 +77,11 @@ Organise your documents for chunking/tagging into a subdirectory named *chunking
   - 1.	Goes through the CSV of chunks and tags each in chunk using the fine-tuned model
   - 2.	Inserts result into a CSV called ‘scoresheet_topics.csv’.
 
+## Development and Contributions
+This project was developed during my placement with a start-up, with a focus on creating a robust system for AI-powered document analysis. 
 
-  Development and Contributions
-This project was developed during my placement with a start-up, with a focus on creating a robust system for AI-powered document analysis. Contributions are welcome, and for contribution guidelines, please refer to CONTRIBUTING.md.
-
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Contact
-For any queries or further discussions regarding this project, please reach out via GitHub issues or directly through email.
+## Contact
+For any queries or further discussions regarding this project, please reach out via GitHub issues or directly through email **glebkhamin@gmail.com**.
