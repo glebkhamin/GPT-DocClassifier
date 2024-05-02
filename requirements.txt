@@ -1,1 +1,8 @@
-openaipypdf2langchainpdf2imagepandasscikit-learn iterative-stratificationmatplotlib
+openai 
+pypdf2
+langchain
+pdf2image
+pandas
+scikit-learn 
+iterative-stratification
+matplotlib
