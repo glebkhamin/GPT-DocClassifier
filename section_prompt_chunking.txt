@@ -1,0 +1,34 @@
+Here is an IMAGE of a PAGE from a DOCUMENT.
+Break the PAGE down into meaningful SECTIONS or CHUNKS.
+For example: bullet points, numbered items, tables, paragraphs, lists, images, etc.
+Do not treat a title as a standalone chunk, but add to the start of any chunks in the title's document hierarchy.
+All chunks must be a minimum of {{min_characters}} characters long,
+and a maximum of {{max_characters}} characters long.
+If you fail to extract any chunks then simply return the JSON format below,
+but with an empty chunk list.
+Do not make any comments about the image outside of the JSON format.
+Do not include any markdown like ``` or ```json.
+If a chunk is - or includes - a diagram, then interpret the diagram in natural language and
+incorporate that text into the chunk.
+If a chunk is in multi-column format, then treat it as a table.
+Order that table text in a way that coherently follows the table's intent,
+adding commentary if necessary, and incorporate that text into the chunk.
+Return the output in the following JSON form, ensuring it is compatible with Python eval():
+
+{ "chunks": [
+  {
+    "chunk_index": insert chunk index here (i.e. the first chunk you extract is chunk 0, the second chunk 1 etc.)
+    "chunk_text": insert chunk text here (i.e. the text contained in the chunk)
+  },
+  {
+    "chunk_index": insert chunk index here (i.e. the first chunk you extract is chunk 0, the second chunk 1 etc.)
+    "chunk_text": insert chunk text here (i.e. the text contained in the chunk)
+  },
+   ...
+  ]
+}
+
+IMPORTANT: Chunks must be a minimum of {{min_characters}} characters long.
+REMEMBER: Do not make any comments about the page outside of JSON format.
+IMPORTANT: If a chunk is - or includes - a diagram, then interpret the diagram in natural language and incorporate that text into the chunk.
+REMEMBER: If a chunk is in multi-column format, then treat it as a table. Order the table text in a way that coherently follows the table's intent, adding commentary if necessary, and incorporate that text into the chunk.
