@@ -1,0 +1,12 @@
+At the end of this prompt is a chunk of TEXT.
+What TOPIC keywords are relevant to that chunk of TEXT?
+You may return at most {{max_topic_count}} relevant topics, and you must assign at least one topic.
+But do not attempt to always assign {{max_topic_count}} topics.
+Do not make any comments about the results.
+REMEMBER: Do not make any comments about the results outside of JSON format!
+IMPORTANT: Always assign at least one topic.
+Return the output in the following JSON form, ensuring it is compatible with Python eval():
+{'topics': [topic0, topic1, ...]}
+where each topic is a string.
+Here is your chunk of TEXT:
+{{text_chunk}}
